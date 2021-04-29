@@ -1,0 +1,24 @@
+.navigationbar {
+  display: flex;
+  padding: 0 50px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgb(240, 240, 240);
+}
+.navigationbar a {
+  text-decoration: none;
+  color: black;
+}
+.navigation ul {
+  list-style: none;
+  margin: 0;
+}
+.navigation__item {
+  /* text-transform: uppercase; */
+  font-weight: bold;
+  padding: 10px 20px;
+  display: inline-block;
+}
+.navigation__item:hover {
+  background-color: lightgray;
+}

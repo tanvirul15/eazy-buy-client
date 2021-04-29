@@ -1,0 +1,25 @@
+#side-bar {
+  background-color: #203d37;
+  min-height: 100vh;
+  color: white;
+}
+.side-bar__brand {
+  padding: 20px 0 0 30px;
+}
+.side-bar-list {
+  list-style: none;
+  margin: 30px 0 0 0;
+  padding: 0;
+}
+#side-bar .side-bar-list a {
+  text-decoration: none;
+}
+.side-bar-list-item {
+  padding: 10px 30px;
+  color: white;
+  font-size: 20px;
+}
+.side-bar-list-item:hover,
+.side-bar-list-item:active {
+  background-color: #366e63;
+}
